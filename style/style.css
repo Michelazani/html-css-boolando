@@ -46,13 +46,21 @@ p{
 }
 /* SELETTORI AVANZATI */
 
-article.products:hover .levis {
-    
+article.products:hover span.heart {
+    color: red;
 }
 
+article.products:hover img.levis{
+    display: inline;
+}
 
+.levis{
+    display: none;
+}
 
-
+article.products:hover img.visible{
+    display: none;
+}
 
 
 /* CLASSI */
