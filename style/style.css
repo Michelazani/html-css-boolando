@@ -5,3 +5,55 @@
     box-sizing: border-box;
 }
 
+/* FLEX */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* TAG */
+header{
+    height: 50px;
+    background-color: rgb(255, 105, 0);
+    
+}
+
+ul{
+    list-style: none;
+}
+
+/* SELETTORI AVANZATI */
+
+
+
+/* CLASSI */
+
+
+/* header */
+.container{
+    max-width: 1050px;
+}
+
+.logo{
+    width: calc(100% / 3);
+}
+
+
+
+.list{
+    width: calc(100% / 3);
+}
+
+.icons{
+    width: calc(100% / 3);
+}
+
+i{
+    padding: 0.5rem;
+}
