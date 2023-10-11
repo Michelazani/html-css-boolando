@@ -36,10 +36,14 @@ i{
 }
 
 
+
 footer{
     background-color: black;
 }
 
+p{
+    padding: 0 1rem;
+}
 /* SELETTORI AVANZATI */
 
 
@@ -79,6 +83,7 @@ footer{
 .main-container{
     margin: 0 auto;
     width: 70%;
+    padding-bottom: 2rem;
 
 }
 
@@ -93,6 +98,7 @@ footer{
 .padding-photo{
     padding: 2rem 1rem;
     width: 100%;
+    padding-bottom: 0;
 }
 
 
@@ -104,6 +110,20 @@ footer{
     height: 25px;
     background-color: white;
 }
+
+.red-numbers{
+    color: red;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.upper-case{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
 
 
 /* footer */
