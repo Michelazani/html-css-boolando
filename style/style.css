@@ -20,16 +20,31 @@
 /* TAG */
 header{
     height: 50px;
-    background-color: rgb(255, 105, 0);
-    
+    background-color: rgb(255, 105, 0);   
 }
 
 ul{
     list-style: none;
 }
 
-/* SELETTORI AVANZATI */
+li{
+    padding-left: 0.7rem;
+}
 
+i{
+    padding: 0.5rem;
+}
+
+img{
+    margin: 2rem 1rem;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+}
+
+/* SELETTORI AVANZATI */
 
 
 /* CLASSI */
@@ -44,6 +59,10 @@ ul{
     width: calc(100% / 3);
 }
 
+.width-logo{
+    width: 25%;
+}
+
 
 
 .list{
@@ -54,6 +73,45 @@ ul{
     width: calc(100% / 3);
 }
 
-i{
-    padding: 0.5rem;
+.flex-end{
+    justify-content: flex-end;
+}
+
+
+/* main */
+
+.main-container{
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.products{
+    width: calc(100% / 3);
+}
+
+
+
+/* footer */
+
+.white-text{
+    color: white;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.boxes{
+    width: calc(100% / 2);
+
+}
+
+.column{
+    flex-direction: column;
+}
+
+.smaller-text{
+    font-size: 10px;
+    justify-content: ;
 }
